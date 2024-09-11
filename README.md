@@ -1,6 +1,6 @@
 # Appointment Planner
 
-This a Contacts and Appoitments manager app.
+This is a Contacts and Appoitments app manager.
 1. You can register contacts
 2. Use contacts saved previously to make appointments.
 
