@@ -14,7 +14,7 @@ export const ContactsPage = ({ contacts, addContact }) => {
     contacts.map(contact => contact.name).includes(name) ? 
             setIsDuplicate(true) : 
             setIsDuplicate(false);
-  }, [name]);
+  }, [name, contacts]);
 
 
   const handleSubmit = (e) => {
