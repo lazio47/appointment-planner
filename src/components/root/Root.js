@@ -9,6 +9,7 @@ function Root() {
     return (
         <>
             <nav>
+                <h1>Appointment Planner</h1>
                 <NavLink to={ROUTES.CONTACTS} >
                 Contacts
                 </NavLink>

@@ -20,6 +20,7 @@ export const ContactForm = ({
         <input  id="phone" 
                 type="tel" 
                 pattern="351[0-9]{9}" 
+                placeholder="351#########"
                 value={phone} 
                 onChange={(e) => setPhone(e.target.value)} 
                 />
@@ -31,7 +32,7 @@ export const ContactForm = ({
                 onChange={(e) => setEmail(e.target.value)} 
                 />
 
-        <button type="submit">Submit</button>
+        <input type="submit" value="Add contact" />
 
       </form>
     </>

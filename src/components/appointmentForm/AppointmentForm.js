@@ -53,7 +53,7 @@ export const AppointmentForm = ({
                 onChange={(e) => {setTime(e.target.value)}} 
                 />
 
-        <button type="submit">Submit</button>
+        <input type="submit" value="Add appointment" />
 
       </form>
     </>
